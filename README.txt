@@ -17,9 +17,9 @@ were recorded by the phone.
 Files created are:
 README.txt     - This file
 
-fullobs.txt    - tiday data set; full list of the mean and standard deviation measurements by Activity and Subject
+fullobs.txt    - tidy data set; full list of the mean and standard deviation measurements by Activity and Subject
 
-avgobs.txt     - tiday data set; the average of the mean and standard deviation measurements by Activity and Subject found in fullobs.txt
+avgobs.txt     - tidy data set; the average of the mean and standard deviation measurements by Activity and Subject found in fullobs.txt
 
 Codebook.md    - Codebook for this assignment
 
