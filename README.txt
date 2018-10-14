@@ -5,16 +5,16 @@ Raw data for this assignment used by permission:
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. 
 Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. 
 International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
-
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
 
-The observations were gathered from a group of 30 volunteers within an age bracket of 19-48 years. 
+The observations for the experiment were gathered from a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a 
 smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 561 measurement values 
 were recorded by the phone. 
 
-Files created are:
+Files created are for this repo:
 README.txt     - This file
 
 fullobs.txt    - tidy data set; full list of the mean and standard deviation measurements by Activity and Subject
@@ -25,13 +25,13 @@ Codebook.md    - Codebook for this assignment
 
 run_analysis. R - The R code which created the fullobs.txt and avgobs.txt files
 
-Instruction list can be found in-line documentation within the run_analysis.R file
+Instruction list that processed the raw data can be found in-line documentation within the run_analysis.R file, using R V3.5.1
 
 
 
 
-The fullobs.txt and avgobs.txt were created using the following from the Human Activity Recognition project:
-Of the 561 measurements, 66 were extracted and combined from the following files:
+The fullobs.txt and avgobs.txt were created using the following files from the Human Activity Recognition project:
+
 X_train.txt         training measurements
 
 X_test.txt          test measurements
