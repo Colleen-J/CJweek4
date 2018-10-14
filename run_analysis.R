@@ -63,14 +63,16 @@ bothfl <- rbind(newtrain, newtest)
 
 # Merge activity names with the activity name in bothfl$V1 by activity number
 fullobs <- merge(bothfl, activ, by = "V1")
+fullobs$V1 <- NULL
 names(fullobs)[68] <- "Activity"
 
 # Save completed file
-write.table(fullobs,file="fullobs.txt")
+write.table(fullobs,file="fullobs.txt", row.names = FALSE)
 
 # Now create new tidy data set 
 # install reshape 2 package to use melt!
-#
+install.packages("reshape2")
+library(reshape2)
 # Create skinny list of measurements by Activity and Subject
 meltobs <- melt(fullobs, id=c("Activity","Subject"), measure.vars=as.character(partl[,2]))
 
@@ -78,4 +80,4 @@ meltobs <- melt(fullobs, id=c("Activity","Subject"), measure.vars=as.character(p
 avgobs <- dcast(meltobs, Activity + Subject ~ as.character(partl[,2]), mean)
 
 # Save new file of means by Activity and by Subject
-write.table(avgobs, file="avgobs.txt")
+write.table(avgobs, file="avgobs.txt", row.names = FALSE)
