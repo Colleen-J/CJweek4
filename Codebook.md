@@ -1,11 +1,12 @@
-Codebook for fullobs.txt
+Codebook
 
-Of these 561 total observations, 66 were extracted from the following tables - these are the mean and standard deviations of each measurement type:  X_train.txt and X_test.txt
+Of the 561 total observations included in the original experiment, 66 were extracted per the assignment instructions.  These 66 measurements are the mean and standard deviations of each measurement type found in these files: X_train.txt and X_test.txt
 
+Codebook for fullobs.txt 
 
-Activity             One of the 6 activites that the subject performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)    
+Activity             One of the 6 activites that the subjects performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)    
 
-Subject              Identity of each of 30 subjects who performed the activities, numeric value
+Subject              Id of each of 30 subjects who performed the activities, numeric value, 1 to 30
 
 tBodyAcc-mean()-X    The mean of the tBodyAcc measurement along the X axis
 
@@ -146,9 +147,9 @@ Codebook for avgobs.txt
 These are the mean of the total mean and standard deviations of each measurement type:  X_train.txt and X_test.txt
 
 
-Activity             One of the 6 activites that the subject performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)    
+Activity             One of the 6 activites that the subjects performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)    
 
-Subject              Identity of each of 30 subjects who performed the activities, numeric value
+Subject              Id of each of 30 subjects who performed the activities, numeric value, 1 to 30
 
 tBodyAcc-mean()-X    The mean of total mean of the tBodyAcc measurement along the X axis
 
