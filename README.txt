@@ -14,11 +14,28 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 561 measurement values 
 were recorded by the phone. 
 
-Of the 561 measurements, 66 were extracted and combined from the following files:
-X_train.txt
-X_test.txt
+Files created are:
+README.txt     - This file
 
-These files were also used throughout the run_analysis.R code from the Human Activity Recognition project:
+fullobs.txt    - tiday data set; full list of the mean and standard deviation measurements by Activity and Subject
+
+avgobs.txt     - tiday data set; the average of the mean and standard deviation measurements by Activity and Subject found in fullobs.txt
+
+Codebook.md    - Codebook for this assignment
+
+run_analysis. R - The R code which created the fullobs.txt and avgobs.txt files
+
+Instruction list can be found in-line documentation within the run_analysis.R file
+
+
+
+
+The fullobs.txt and avgobs.txt were created using the following from the Human Activity Recognition project:
+Of the 561 measurements, 66 were extracted and combined from the following files:
+X_train.txt         training measurements
+
+X_test.txt          test measurements
+
 subject_train.txt   subject number for each measurement in X_train.txt (numeric 1 to 30)
 
 subject_test.txt    subject number for each measurement in X_test.txt  (numeric 1 to 30)
@@ -32,10 +49,5 @@ features.txt        the headings for each set of measurements found in both X_tr
 activity_labels.txt the names of each activity listed above  (character values)
 
 
-The tidy data sets are the following:
-fullobs.txt    - full list of the mean and standard deviation measurements by Activity and Subject
 
-avgobs.txt     - the average of the mean and standard deviation measurements by Activity and Subject found in fullobs.txt
-
-Instruction list can be found in-line documentation within the run_analysis.R file
 
