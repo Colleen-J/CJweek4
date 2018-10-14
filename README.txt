@@ -1,5 +1,5 @@
 Getting and Cleaning data - week 4 assignment
-C. jackson - 10/14/18
+C. Jackson - 10/14/18
 
 Raw data for this assignment used by permission: 
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. 
